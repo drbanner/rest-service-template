@@ -1,4 +1,4 @@
-package hello;
+package com.rest.template;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -15,7 +15,7 @@ public class SwaggerConfig {
 
         Docket docket =  new Docket(DocumentationType.SWAGGER_2)
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("hello"))
+                .apis(RequestHandlerSelectors.basePackage("com.rest.template"))
                 .paths(PathSelectors.any())
                 .build();
 

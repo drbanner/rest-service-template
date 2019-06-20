@@ -7,6 +7,9 @@ public class Person {
     private Integer age;
     private Address address;
 
+    public Person() {
+        //default constructor
+    }
     public Person(String name, Integer age, Address address) {
         this.name = name;
         this.age = age;

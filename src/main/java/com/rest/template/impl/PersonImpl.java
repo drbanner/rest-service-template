@@ -40,4 +40,9 @@ public class PersonImpl {
     public void addPerson(Person person) {
         personList.add(person);
     }
+
+    public void deletePerson(String name) {
+
+        personList.remove(personList.stream().filter(person->person.getName().equalsIgnoreCase(name)).findFirst().get());
+    }
 }

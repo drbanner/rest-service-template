@@ -42,4 +42,10 @@ public class PersonController {
 
         personImpl.deletePerson(name);
     }
+
+    @RequestMapping(method = RequestMethod.PUT, consumes = "application/json", path = "/person/{name}")
+    @ApiOperation("Returns the list of all Persons in the system.")
+    public void addPerson(@RequestBody Person person,@PathVariable String name) {
+        personImpl.updatePerson(name, person);
+    }
 }

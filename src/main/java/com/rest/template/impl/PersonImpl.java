@@ -43,6 +43,16 @@ public class PersonImpl {
 
     public void deletePerson(String name) {
 
-        personList.remove(personList.stream().filter(person->person.getName().equalsIgnoreCase(name)).findFirst().get());
+        personList.remove(personList.stream().filter(person -> person.getName().equalsIgnoreCase(name)).findFirst().get());
+    }
+
+    public void updatePerson(String name, Person person) {
+        for (int i = 1; i < personList.size(); i++) {
+            Person person1 = personList.get(i);
+            if (person1.getName().equalsIgnoreCase(name)) {
+                personList.set(i, person);
+                break;
+            }
+        }
     }
 }

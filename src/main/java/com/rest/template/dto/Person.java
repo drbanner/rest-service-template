@@ -8,7 +8,6 @@ public class Person {
     private Address address;
 
     public Person() {
-        //default constructor
     }
     public Person(String name, Integer age, Address address) {
         this.name = name;

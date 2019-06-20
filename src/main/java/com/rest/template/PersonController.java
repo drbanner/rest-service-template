@@ -25,19 +25,19 @@ public class PersonController {
     }
 
     @RequestMapping(method = RequestMethod.GET, produces = "application/json", path = "/person/{name}")
-    @ApiOperation("Returns the list of all Persons in the system.")
+    @ApiOperation("Returns a person by name.")
     public Person getPersonByName(@PathVariable String name) {
         return personImpl.getPersonByName(name);
     }
 
     @RequestMapping(method = RequestMethod.POST, consumes = "application/json", path = "/person")
-    @ApiOperation("Returns the list of all Persons in the system.")
+    @ApiOperation("Adds a person object to the person list.")
     public void addPerson(@RequestBody Person person) {
         personImpl.addPerson(person);
     }
 
     @RequestMapping(method = RequestMethod.DELETE, path = "/person/{name}")
-    @ApiOperation("Returns the list of all Persons in the system.")
+    @ApiOperation("Deletes a specific person based on the name")
     public void deletePerson(@PathVariable String name) {
 
         personImpl.deletePerson(name);

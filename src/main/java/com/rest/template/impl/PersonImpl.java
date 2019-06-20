@@ -15,6 +15,7 @@ public class PersonImpl {
 
     List<Person> personList = new ArrayList<>(Arrays.asList(new Person("Jane", 24, new Address("Harvey St", "Westland", "Michigan", "USA", 21117)),
             new Person("Doe", 25, new Address("Shadow view drive", "Ballwin", "Missouri", "USA", 62704)),
+            new Person("Brat", 28, new Address("Meadow Mills Rd", "Owings mills", "Maryland", "USA", 21117)),
             new Person("Alex", 26, new Address("candleLight", "Chattam Hills", "Illinois", "USA", 63031))));
 
 

@@ -1,16 +1,25 @@
 package com.rest.template.dto;
 
-public class Address {
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
 
+@ApiModel(description = "Class represents a Address object.")
+public class Address {
+    @ApiModelProperty(notes = "Street name  of the Address.", example = "Harvey", position = 1)
     private String street;
+    @ApiModelProperty(notes = "City name  of the Address.", example = "Detroit", position = 2)
     private String city;
+    @ApiModelProperty(notes = "State name  of the Address.", example = "Maryland", position = 3)
     private String state;
+    @ApiModelProperty(notes = "Country  of the Address.", example = "USA", position = 4)
     private String country;
+    @ApiModelProperty(notes = "Zip code  of the Address.", example = "21117", position = 5)
     private Integer zipCode;
 
     public Address() {
 
     }
+
     public Address(String street, String city, String state, String country, Integer zipCode) {
         this.street = street;
         this.city = city;

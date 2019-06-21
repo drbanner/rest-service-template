@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3139f96b-fad0-4994-88a6-85a5c70be49a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/template/dto/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/template/dto/Address.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/rest/template/dto/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/rest/template/dto/Person.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,16 +42,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/template/dto/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="278">
+              <caret line="21" column="40" selection-start-line="21" selection-end-line="22" />
               <folding>
-                <element signature="e#539#540#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#948#949#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1077#1078#0" expanded="true" />
+                <element signature="e#1116#1117#0" expanded="true" />
+                <element signature="e#1146#1147#0" expanded="true" />
+                <element signature="e#1181#1182#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+                <element signature="e#1258#1259#0" expanded="true" />
+                <element signature="e#1296#1297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/template/dto/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,10 +107,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/rest/template/HelloImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rest/template/impl/HelloImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rest/template/HelloController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/rest/template/dto/Address.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rest/template/impl/PersonImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rest/template/PersonController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/rest/template/dto/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/rest/template/dto/Address.java" />
       </list>
     </option>
   </component>
@@ -223,18 +245,18 @@
       <option name="presentableId" value="Default" />
       <updated>1560822945945</updated>
       <workItem from="1560822948581" duration="327000" />
-      <workItem from="1560905886737" duration="14713000" />
+      <workItem from="1560905886737" duration="16181000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15040000" />
+    <option name="totallyTimeSpent" value="16508000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -245,14 +267,14 @@
       <window_info anchor="bottom" id="Messages" weight="0.32998565" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32855093" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32855093" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39885223" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32902297" />
       <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32424676" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32424676" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -432,13 +454,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/template/dto/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/template/impl/PersonImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -468,13 +483,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/template/dto/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="278">
+          <caret line="21" column="40" selection-start-line="21" selection-end-line="22" />
           <folding>
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1020#1021#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1077#1078#0" expanded="true" />
+            <element signature="e#1116#1117#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1181#1182#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/rest/template/dto/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

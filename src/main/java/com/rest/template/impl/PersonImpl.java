@@ -44,7 +44,7 @@ public class PersonImpl {
 
     public void deletePerson(String name) {
 
-        personList.remove(personList.stream().filter(person -> person.getName().equalsIgnoreCase(name)).findFirst().get());
+        personList.removeIf(person -> person.getName().equalsIgnoreCase(name));
     }
 
     public void updatePerson(String name, Person person) {

@@ -2,7 +2,7 @@ package com.rest.template.dto;
 
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
-
+sdsdfsf
 @ApiModel(description = "Class represents a Address object.")
 public class Address {
     @ApiModelProperty(notes = "Street name  of the Address.", example = "Harvey", position = 1)
